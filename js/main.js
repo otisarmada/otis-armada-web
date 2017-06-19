@@ -57,11 +57,11 @@ $(function ($) {
 				event.preventDefault();
 				horizontalScroll('right');
 			});
-      $(document).on("swiperight", function(event) {
+      $('project').on("swiperight", function(event) {
 				event.preventDefault();
 				horizontalScroll('left');
 			});
-			$(document).on("swipeleft", function(event) {
+			$('project').on("swipeleft", function(event) {
 				event.preventDefault();
 				horizontalScroll('right');
 			})
