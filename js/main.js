@@ -47,11 +47,13 @@ $(function ($) {
 			// 	event.preventDefault();
 			// 	horizontalScroll('right');
 			// });
-      $(document).on("swiperight", function(event) {
+			$(document).on("swiperight", swiperightHandler);
+			function swipeleftHandler(event) {
 				event.preventDefault();
 				horizontalScroll('left');
 			});
-			$(document).on("swipeleft", function(event) {
+			$(document).on("swipeleft", swipeleftHandler);
+			function swipeleftHandler(event) {
 				event.preventDefault();
 				horizontalScroll('right');
 			});
