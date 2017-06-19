@@ -32,19 +32,15 @@ $(function ($) {
 			window.positionColumns = 0;
 
 			$(".arrow-left").click(function(event) {
-				event.preventDefault();
 				horizontalScroll('left');
 			});
 			$(".arrow-right").click(function(event) {
-				event.preventDefault();
 				horizontalScroll('right');
 			});
-			$(document).on("swiperight", function(event) {
-				event.preventDefault();
+			$(window).on("swiperight", function(event) {
 				horizontalScroll('left');
 			});
-			$(document).on("swipeleft", function(event) {
-				event.preventDefault();
+			$(window).on("swipeleft", function(event) {
 				horizontalScroll('right');
 			});
 		} else if ($(window).width() < 550) {
