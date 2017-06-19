@@ -39,21 +39,11 @@ $(function ($) {
 				event.preventDefault();
 				horizontalScroll('right');
 			});
-			// $(document).on("wheel", function(event) {
-			// 	event.preventDefault();
-			// 	horizontalScroll('left');
-			// });
-			// $(document).on("wheel", function(event) {
-			// 	event.preventDefault();
-			// 	horizontalScroll('right');
-			// });
-			$(document).on("swiperight", swiperightHandler);
-			function swipeleftHandler(event) {
+			$(document).on("swiperight", function(event) {
 				event.preventDefault();
 				horizontalScroll('left');
 			});
-			$(document).on("swipeleft", swipeleftHandler);
-			function swipeleftHandler(event) {
+			$(document).on("swipeleft", function(event) {
 				event.preventDefault();
 				horizontalScroll('right');
 			});
