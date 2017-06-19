@@ -1,0 +1,207 @@
+/* general
+-----------------------*/
+html {
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+body {
+	font: 18px "Arial Narrow", Arial;
+	line-height: 24px;
+	font-weight: 300;
+	color: #000;
+	background-color: #e9e9e9;
+  margin: 0;
+}
+
+.grid-container {
+  padding-bottom: 0px;
+}
+
+a {
+  color: #1a1a1a;
+	text-decoration: none;
+	border-bottom: 1px solid #312e2a;
+}
+
+a:hover {
+	text-decoration: none;
+	border-bottom: 1px solid #312e2a;
+}
+
+.page-home {
+	width: 100%;
+  margin: 0;
+}
+
+/* side nav
+--------------------------------------------------*/
+
+.total-nav {
+  width: 100%;
+}
+
+.side-bar-left {
+  float: left;
+	height: 100vh;
+	width: 50px;
+	color: #000;
+	background-color: #e9e9e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.side-bar-right {
+  float: right;
+	height: 100vh;
+	width: 50px;
+	color: #000;
+	background-color: #e9e9e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.vertical-text {
+  font-size: .95em;
+  width: 100%;
+  transform: rotate(-90deg);
+  float: left;
+}
+
+/*.vertical-text-right {
+  font-size: .95em;
+  width: 100%;
+  transform: rotate(90deg);
+  float: right;
+}*/
+
+.vertical-text .title {
+  /*font-size: 1.5em;*/
+  width: 160%;
+  margin-left: -50%;
+}
+
+.title .title-hidden {
+  visibility: hidden;
+}
+
+.vertical-text .title-right {
+  width: 160%;
+  margin-left: 50%;
+}
+
+.arrow-left, .arrow-right {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+	.nav {
+		display: none;
+	}
+  .side-bar-right {
+    display: none;
+  }
+  .hidden {
+    display: hidden;
+  }
+}
+
+
+/* home
+--------------------------------------------------*/
+
+.page-content {
+  width: auto;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.total-project {
+  display: flex;
+  width: auto;
+  /*margin: 0px 15px 0px 0px;*/
+}
+
+.page-content .croc {
+  background: url('../img/01_otis_croc/croc_background.jpg');
+  background-size: 100%;
+}
+
+/*.page-content .brutal {
+  background-color: #8c1919;
+  color: #fff;
+}*/
+
+.page-home .grid-container {
+	width: 300px;
+	min-width: 300px;
+	max-width: 300px;
+  /*margin: 0 5px;*/
+  overflow-y: scroll;
+  background-color: #fff;
+}
+
+.page-home .project .article {
+  padding: 0 20px;
+}
+
+.page-home .project .article .otis-type {
+  font-weight: bold;
+
+  font-size: 10px;
+  padding: 20px 0px 0px 0px;
+}
+
+.page-home .project .article .header-block {
+  padding: 50px 0px 50px 0px;
+  line-height: 170%;
+}
+
+.page-home .project .image-box .image-caption {
+  padding: 0% 10% 10% 10%;
+  font-size: 11.5px;
+  font-style: italic;
+  line-height: 135%;
+  text-align: left;
+}
+
+.page-home .project .text-block p {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.book-now {
+  margin-bottom: 10px
+}
+/* images
+--------------------------------------------------*/
+.image-box {
+  text-align: center;
+}
+
+img {
+  padding: 5% 0% 0% 0%;
+}
+
+.image-p {
+  padding: 0;
+}
+
+.image-box > .horizontal {
+  width: 100%;
+}
+
+.image-box > .logo-image {
+  width: 100%;
+}
+
+.image-box > .vertical {
+  width: 60%;
+}
