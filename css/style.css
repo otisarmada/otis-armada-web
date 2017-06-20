@@ -1,10 +1,15 @@
+/*
+    Theme name: OTIS ARMADA
+    Author: Design: PSP, Build: W Miller
+    Author URI: http://www.wmiller.me
+    Version: 1.0
+*/
+
 /* general
 -----------------------*/
 html {
   overflow-y: hidden;
   overflow-x: hidden;
-
-
 }
 
 body {
@@ -74,13 +79,6 @@ a:hover {
   float: left;
 }
 
-/*.vertical-text-right {
-  font-size: .95em;
-  width: 100%;
-  transform: rotate(90deg);
-  float: right;
-}*/
-
 .vertical-text .title {
   /*font-size: 1.5em;*/
   width: 160%;
@@ -114,7 +112,7 @@ a:hover {
   .side-bar-mobile {
     float: left;
     height: 100vh;
-    font-size: .9em;
+    font-size: .8em;
     width: 49px;
     color: #000;
     background-color: #e9e9e9;
@@ -195,6 +193,7 @@ a:hover {
 .book-now {
   margin-bottom: 10px
 }
+
 /* images
 --------------------------------------------------*/
 .image-box {
@@ -203,10 +202,6 @@ a:hover {
 
 img {
   padding: 5% 0% 0% 0%;
-}
-
-.image-p {
-  padding: 0;
 }
 
 .image-box > .horizontal {
