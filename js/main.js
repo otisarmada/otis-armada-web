@@ -66,9 +66,9 @@ $(function ($) {
 				horizontalScroll('right');
 			})
 		}
-
-		$.mobile.loading().hide();
 		
+		$.mobile.loading().hide();
+
 		// keyboard navigation
 		$(document.documentElement).keyup(function (event) {
 			// handle cursor keys
