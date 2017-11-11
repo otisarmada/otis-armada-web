@@ -145,6 +145,12 @@ a:hover {
   width: auto;
 }
 
+.textbook {
+  background: url(../img/06_otis_textbook/text_background.jpg);
+  display: flex;
+  width: 100%;
+}
+
 /*.brutal {
   background-color: #8c1919;
   color: #fff;
