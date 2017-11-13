@@ -149,6 +149,9 @@ a:hover {
   background: url(../img/06_otis_textbook/text_background.jpg);
   display: flex;
   width: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 
