@@ -121,6 +121,12 @@ a:hover {
     text-align: center;
   }
 
+  .textbook {
+    background: url(../img/06_otis_textbook/text_background.jpg);
+    display: flex;
+    width: auto;
+  }
+
 }
 
 
