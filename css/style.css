@@ -121,11 +121,7 @@ a:hover {
     text-align: center;
   }
 
-  .textbook {
-    background: url(../img/06_otis_textbook/text_background.jpg);
-    display: flex;
-    width: auto;
-  }
+
 
 }
 
@@ -146,7 +142,7 @@ a:hover {
 }
 
 .textbook {
-  background: url(../img/06_otis_textbook/text_background.jpg);
+  /* background: url(../img/06_otis_textbook/text_background.jpg); */
   display: flex;
   width: auto;
   background-repeat: no-repeat;
@@ -156,7 +152,7 @@ a:hover {
 
 
 .croc {
-  background: url(../img/01_otis_croc/croc_background.jpg);
+  /* background: url(../img/01_otis_croc/croc_background.jpg); */
   display: flex;
   width: auto;
 }
